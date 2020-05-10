@@ -1,0 +1,5 @@
+jQuery(".test").find(".child").addClass("red")
+let x = jQuery(".test").find(".child")
+x.each((div) => { console.log(div) })
+jQuery(".test").parent().print()
+jQuery(".test").children().print()
